@@ -1,4 +1,4 @@
-class Game:
+class Foo:
     def __init__(self):
         return
 

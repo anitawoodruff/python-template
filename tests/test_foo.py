@@ -1,7 +1,7 @@
-from app.game import Game
+from app.foo import Foo
 
 def test_initialise():
-    Game()
+    Foo()
     assert True
 
 def test_fail():
