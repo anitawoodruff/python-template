@@ -7,25 +7,13 @@
 Check installation with 
 
 ```
-python --version && pip --version
-```
-
-If python or pip versions are for Python 2, check if Python 3 versions are installed as `python3` / `pip3`:
-
-```
-python3 --version && pip3 --version
+python3 --version && pip --version && pytest --version
 ```
 
 To install pytest:
 
 ```
 pip install -U pytest
-```
-
-or, using `pip3`:
-
-```
-pip3 install -U pytest
 ```
 
 
