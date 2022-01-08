@@ -1,23 +1,37 @@
 # Pre-requisites
 
-- Python 3
-- Pip for Python 3
-- [pytest](https://docs.pytest.org/en/6.2.x/getting-started.html)
+- `python3`
+- `pip3`
 
 Check installation with 
 
 ```
-python3 --version && pip --version && pytest --version
+python3 --version && pip3 --version
 ```
 
-To install pytest:
+# Set up virtual environment and install dependencies
+
+1. Create a new virtual environment called 'env':
 
 ```
-pip install -U pytest
+python3 -m venv env
 ```
 
+2. Activate it:
 
-# Running the tests
+```
+source env/bin/activate
+```
+
+3. Install `pytest`:
+
+```
+pip install pytest
+```
+
+If you need to de-activate the virtual environment, the command is `deactivate`.
+
+# Running tests
 
 ## From command-line
 
@@ -30,8 +44,12 @@ pytest
 
 After installing the Python extension from Microsoft,
 
-- Open the 'Testing' panel in the left bar
-- Choose the test(s) to run
+1. Tell VSCode to use the virtual environment
+   - shift-[ctrl/cmd]-p
+   - type/select 'Python: Select Interpreter'
+   - select the one at `./env/bin/python3`
+3. Open the 'Testing' panel in the left bar
+4. Choose the test(s) to run
 
 If this doesn't work, you may need to configure the tests:
 - shift-[ctrl/cmd]-p
