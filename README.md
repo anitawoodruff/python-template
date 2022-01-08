@@ -2,7 +2,7 @@
 
 - Python 3
 - Pip for Python 3
-- pytest
+- [pytest](https://docs.pytest.org/en/6.2.x/getting-started.html)
 
 Check installation with 
 
@@ -34,13 +34,7 @@ pip3 install -U pytest
 ## From command-line
 
 ```
-python -m pytest tests/
-```
-
-or, using `python3`:
-
-```
-python3 -m pytest tests/
+pytest
 ```
 
 
