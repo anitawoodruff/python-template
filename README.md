@@ -46,9 +46,14 @@ python3 -m pytest tests/
 
 ## From VSCode
 
-After installing the Python extension from Microsoft, use any of these methods:
-- right-click on test-file & select 'Run All Tests'
-- shift-[ctrl/cmd]-p and select 'Python: Run All tests'
-- 'Run Tests' lightning-bolt button in bottom bar
-    - To see output, click it again & select 'View Test Output'
+After installing the Python extension from Microsoft,
+
+- Open the 'Testing' panel in the left bar
+- Choose the test(s) to run
+
+If this doesn't work, you may need to configure the tests:
+- shift-[ctrl/cmd]-p
+- type/select 'Python: Configure tests'
+- select `pytest`
+
 
