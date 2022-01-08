@@ -1,4 +1,4 @@
-from app.foo import Foo
+from ..foo import Foo
 
 def test_initialise():
     Foo()
