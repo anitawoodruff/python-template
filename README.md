@@ -11,16 +11,16 @@ python3 --version && pip3 --version
 
 # Set up virtual environment and install dependencies
 
-1. Create a new virtual environment called 'env':
+1. Create a new virtual environment called '.env':
 
 ```
-python3 -m venv env
+python3 -m venv .env
 ```
 
 2. Activate it:
 
 ```
-source env/bin/activate
+source .env/bin/activate
 ```
 
 3. Install `pytest`:
@@ -47,7 +47,7 @@ After installing the Python extension from Microsoft,
 1. Tell VSCode to use the virtual environment
    - shift-[ctrl/cmd]-p
    - type/select 'Python: Select Interpreter'
-   - select the one at `./env/bin/python3`
+   - select the one at `./.env/bin/python3`
 3. Open the 'Testing' panel in the left bar
 4. Choose the test(s) to run
 
