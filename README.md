@@ -23,10 +23,10 @@ python3 -m venv .env
 source .env/bin/activate
 ```
 
-3. Install `pytest`:
+3. Install dependencies:
 
 ```
-pip install pytest
+pip install -r requirements.txt
 ```
 
 If you need to de-activate the virtual environment, the command is `deactivate`.
