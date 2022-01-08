@@ -44,8 +44,9 @@ python3 -m pytest tests/
 ```
 
 
-## From VSCode with Python extension
-either:
+## From VSCode
+
+After installing the Python extension from Microsoft, use any of these methods:
 - right-click on test-file & select 'Run All Tests'
 - shift-[ctrl/cmd]-p and select 'Python: Run All tests'
 - 'Run Tests' lightning-bolt button in bottom bar
