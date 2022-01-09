@@ -40,7 +40,8 @@ Recommended editor is VS Code with the Python extension. Recommended config:
    - type/select 'Python: Select Interpreter'
    - select the one at `./.env/bin/python3`
 
-- Set default formatter to Python & enable Format on Save (File > Preferences > Settings; search for 'format')
+- Set default formatter to Python & enable Format on Save
+  - File > Preferences > Settings; search for 'format'
   - If prompted, choose the `black` python formatter 
   
 - Enable Auto Save (File > Auto Save)
