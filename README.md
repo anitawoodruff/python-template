@@ -59,10 +59,3 @@ pytest
 
 1. Open the 'Testing' panel in the left bar
 2. Choose the test(s) to run
-
-If this doesn't work, you may need to configure the tests:
-- shift-[ctrl/cmd]-p
-- type/select 'Python: Configure tests'
-- select `pytest`
-
-
