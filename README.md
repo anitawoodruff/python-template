@@ -31,6 +31,20 @@ pip install -r requirements.txt
 
 If you need to de-activate the virtual environment, the command is `deactivate`.
 
+# Editing code
+
+Recommended editor is VS Code with the Python extension. Recommended config:
+
+- Tell VSCode to use the virtual environment:
+   - shift-[ctrl/cmd]-p
+   - type/select 'Python: Select Interpreter'
+   - select the one at `./.env/bin/python3`
+
+- Set default formatter to Python & enable Format on Save (File > Preferences > Settings; search for 'format')
+  - If prompted, choose the `black` python formatter 
+  
+- Enable Auto Save (File > Auto Save)
+
 # Running tests
 
 ## From command-line
@@ -42,14 +56,8 @@ pytest
 
 ## From VSCode
 
-After installing the Python extension from Microsoft,
-
-1. Tell VSCode to use the virtual environment
-   - shift-[ctrl/cmd]-p
-   - type/select 'Python: Select Interpreter'
-   - select the one at `./.env/bin/python3`
-3. Open the 'Testing' panel in the left bar
-4. Choose the test(s) to run
+1. Open the 'Testing' panel in the left bar
+2. Choose the test(s) to run
 
 If this doesn't work, you may need to configure the tests:
 - shift-[ctrl/cmd]-p
