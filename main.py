@@ -1,4 +1,4 @@
-from foo import Foo
+from app.foo import Foo
 
 def main():
     Foo()
